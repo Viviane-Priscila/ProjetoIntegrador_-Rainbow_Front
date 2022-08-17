@@ -10,6 +10,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { AndamentoComponent } from './andamento/andamento.component';
 
 
 
@@ -22,6 +23,7 @@ import { CadastroComponent } from './cadastro/cadastro.component';
     LayoutComponent,
     HomeComponent,
     CadastroComponent,
+    AndamentoComponent,
 
 
 

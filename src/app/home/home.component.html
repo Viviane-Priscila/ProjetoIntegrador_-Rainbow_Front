@@ -7,7 +7,7 @@
           <h2>Seja a mudança que você quer ver no mundo!!! </h2>
           <h3>Mahatma Gandhi</h3>
           <div>
-            <a href="/ca"  class="btn-get-started scrollto">Cadastrar</a>
+            <a href="/cadastro"  class="btn-get-started scrollto">Cadastrar</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -104,7 +104,7 @@
             <h2>Links Úteis</h2>
             <p>Que tal conferir aqui o que separamos especialmente para você?</p>
           </div>
-          <div class="img-breve">
+          <div class="links">
             <img src="assets/img/breve.jpg"  position="Center" margin-left=500px alt="" width="500" height="400">
           </div>
           </div>
@@ -203,67 +203,48 @@
   
   
       <!-- ======= Contact Us Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h2>Contate-nos</h2>
-            <p>Entre em contato conosco!!!</p>
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Entre em Contatos</h2>
+          <p>Estamos disponíveis para te ouvir.</p>
+        </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Seu Nome</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome Completo" required>
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="name">Seu E-mail</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="exemplo@exemplo.com.br" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Descrição</label>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Messagem</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Sua Mensagem foi Enviada</div>
+              </div>
+              <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+            </form>
           </div>
-  
-        
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="row">
-                  <div class="form-group col-md-6">
-                    <label for="name">Seu Nome</label>
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                  </div>
-                  <div class="form-group col-md-6 mt-3 mt-md-0">
-                    <label for="name">Seu E-mail</label>
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                  </div>
-                </div>
-                <div class="form-group mt-3">
-                  <label for="name">Título</label>
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                </div>
-                <div class="form-group mt-3">
-                  <label for="name">Mensagem</label>
-                  <textarea class="form-control" name="message" rows="10" required></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Sua Mensagem foi enviado. Obrigado!</div>
-                </div>
-                <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
-              </form>
-            </div>
-  
-          </div>
-  
-  
-      </section><!-- End Contact Us Section -->
+
+        </div>
+
+    </section><!-- End Contact Us Section -->
   
     </main><!-- End #main -->
-  
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-
-      <div class="container py-4">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Rainbow</span></strong>. Todos os direitos reservados.
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/ninestars-free-bootstrap-3-theme-for-creative/ -->
-          Designed by <a href="https://bootstrapmade.com/">#PI #Transform-me #Rainbow #Searsa Experian #DH</a>
-        </div>
-      </div>
-    </footer><!-- End Footer -->
   
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   

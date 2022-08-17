@@ -7,13 +7,13 @@
         <div class="col p-0 bg-custom d-flex justify-content-center align-items-center flex-column w-100">
             <form class="w-75" #loginForm="ngForm" (submit)="onSubmit();">
                 <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Username</label>
-                    <input type="text" class="form-control" name="username" [(ngModel)]="username" id="exampleFormControlInput1" placeholder="username"
+                    <label for="exampleFormControlInput1" class="form-label">Usuário</label>
+                    <input type="text" class="form-control" name="username" [(ngModel)]="username" id="exampleFormControlInput1" placeholder="Usuário"
                         required>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleFormControlInput2"  class="form-label">Password</label>
-                    <input type="text" class="form-control" nSame="password" [(ngModel)]="password" id="exampleFormControlInput2" placeholder="password"
+                    <label for="exampleFormControlInput2"  class="form-label">Senha</label>
+                    <input type="text" class="form-control" nSame="password" [(ngModel)]="password" id="exampleFormControlInput2" placeholder="Senha"
                         required>
                 </div>
                 <div class="row">
@@ -21,14 +21,14 @@
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                                Keep me logged in
+                                Manter conectado
                             </label>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                <button type="submit" class="btn btn-custom btn-lg btn-block mt-3">Sign In</button>
-                <button type="button" routerLink="/usuarios" class="btn btn-warning btn-lg btn-block mt-3">Create Account</button>
+                <button type="submit" class="btn btn-custom btn-lg btn-block mt-3">Entrar</button>
+                <button type="button" routerLink="/cadastro" class="btn btn-warning btn-lg btn-block mt-3">Cadastrar</button>
                 </div>
             </form>
         </div>
