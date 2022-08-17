@@ -6,12 +6,10 @@ import { AppComponent } from './app.component';
 import { TemplateModule } from './template/template.module';
 import { Erro404Component } from './erro404/erro404.component';
 import { LoginComponent } from './login/login.component';
-import { UsuariosComponent } from './usuarios/usuarios.component';
-import { UsuarioComponent } from './usuarios/usuario/usuario.component';
 import { LayoutComponent } from './layout/layout.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
-import { usuariosRoutingModule } from './usuarios/usuarios-routing.module.spec';
+import { CadastroComponent } from './cadastro/cadastro.component';
 
 
 
@@ -21,11 +19,10 @@ import { usuariosRoutingModule } from './usuarios/usuarios-routing.module.spec';
     AppComponent,
     Erro404Component,
     LoginComponent,
-    UsuariosComponent,
-    UsuarioComponent,
     LayoutComponent,
     HomeComponent,
-    
+    CadastroComponent,
+
 
 
 
@@ -36,8 +33,6 @@ import { usuariosRoutingModule } from './usuarios/usuarios-routing.module.spec';
     ReactiveFormsModule,
     TemplateModule,
     RouterModule,
-
-    usuariosRoutingModule,
     AppRoutingModule
     
     
